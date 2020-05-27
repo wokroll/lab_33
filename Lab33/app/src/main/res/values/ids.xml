@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="lab33MutationPercent" type="id" />
+    <item name="textView16" type="id" />
+    <item name="textView15" type="id" />
+    <item name="textView14" type="id" />
+    <item name="textView13" type="id" />
+    <item name="textView4" type="id" />
+    <item name="lab33A" type="id" />
+    <item name="textView3" type="id" />
+    <item name="lab33B" type="id" />
+    <item name="lab33C" type="id" />
+    <item name="lab33D" type="id" />
+    <item name="button6" type="id" />
+    <item name="lab33Roots" type="id" />
+    <item name="lab33Y" type="id" />
+    <item name="lab33Time" type="id" />
+</resources>

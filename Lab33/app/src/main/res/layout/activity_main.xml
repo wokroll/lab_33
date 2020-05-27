@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:onClick="findRoots"
+        android:text="Find roots"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lab33MutationPercent" />
+
+    <EditText
+        android:id="@+id/lab33Y"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="y"
+        android:inputType="number"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView16"
+        app:layout_constraintStart_toEndOf="@+id/textView16" />
+
+    <EditText
+        android:id="@+id/lab33D"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="d"
+        android:inputType="number"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView15"
+        app:layout_constraintStart_toEndOf="@+id/textView15" />
+
+    <EditText
+        android:id="@+id/lab33C"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="c"
+        android:inputType="number"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView14"
+        app:layout_constraintStart_toEndOf="@+id/textView14" />
+
+    <EditText
+        android:id="@+id/lab33B"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="b"
+        android:inputType="number"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView13"
+        app:layout_constraintStart_toEndOf="@+id/textView13" />
+
+    <EditText
+        android:id="@+id/lab33A"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="a"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <EditText
+        android:id="@+id/lab33MutationPercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Mutation percent"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lab33A" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Lab3.3"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Genetic algorithm research"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="*x1+"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/lab33A"
+        app:layout_constraintStart_toEndOf="@+id/lab33A" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="*x2+"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/lab33B"
+        app:layout_constraintStart_toEndOf="@+id/lab33B" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="*x3+"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/lab33C"
+        app:layout_constraintStart_toEndOf="@+id/lab33C" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="*x4="
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/lab33D"
+        app:layout_constraintStart_toEndOf="@+id/lab33D" />
+
+    <TextView
+        android:id="@+id/lab33Roots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+    <TextView
+        android:id="@+id/lab33Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lab33Roots" />
+</androidx.constraintlayout.widget.ConstraintLayout>
